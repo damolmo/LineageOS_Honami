@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="NyQuilXT/android_device_sony_honami" path="device/sony/honami" revision="lineage-17.1" />
+  <project name="AICP/device_sony_rhine-common" path="device/sony/rhine-common" revision="r11.1" />
+  <project name="AICP/device_sony_msm8974-common" path="device/sony/msm8974-common" revision="r11.1" />
+  <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" revision="r11.1" />
+  <project name="AICP/proprietary_vendor_sony" path="vendor/sony" revision="r11.1" />
+  <project name="AICP/device_sony_common" path="device/sony/common-caf" revision="r11.1-caf" />
+  <project name="AICP/hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="q10.0" />
+  <project name="AICP/hardware_sony_thermanager" path="hardware/sony/thermanager" revision="q10.0" />
+  <project name="AICP/hardware_sony_timekeep" path="hardware/sony/timekeep" revision="q10.0" />
+  <project name="AICP/external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="q10.0" />
+</manifest>
