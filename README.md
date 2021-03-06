@@ -14,7 +14,7 @@
 | GPU                     | Adreno 330                        |
 | Memoria                 | 2 GB                              |
 | Almacenamiento          | 16 GB                             |
-| MicroSD                 | up to 64 GB (dedicated slot)      |
+| MicroSD                 | Slot dedicado                     |
 | Batería                 | Li-Ion 3000 mAh (no extraible )   |
 | Dimensiones             | 127 x 64.9 x 9.5 mm               |
 | Pantalla                | 5.0 inches                        |
