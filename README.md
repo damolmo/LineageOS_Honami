@@ -22,3 +22,8 @@
 | Cámara frontal          | 2 MP                              |
 | Lanzamiento             | 2013, Septiembre                  |
 
+## Historial de versiones
+
+| Tag                 | Descarga                    |
+| :---------------------- | :-------------------------------- |
+| r30                     |    <a href="https://github.com/daviiid99/Lineage_Honami/releases/tag/r30">Descarga</a>   |
