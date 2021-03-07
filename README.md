@@ -26,4 +26,5 @@
 
 | Tag                 | Descarga                    |
 | :---------------------- | :-------------------------------- |
+| r32                     |    <a href="https://github.com/daviiid99/Lineage_Honami/releases/tag/r32"> Descarga</a>|
 | r30                     |    <a href="https://github.com/daviiid99/Lineage_Honami/releases/tag/r30">Descarga</a>   |
