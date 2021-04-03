@@ -3,7 +3,7 @@
 
 ## Render Dispositivo
 
-![Sony Xperia Z1 Compact](http://www.siliconweek.com/wp-content/uploads/2013/09/Xperia_Z_1.png "Sony Xperia Z1")
+![Sony Xperia Z1 Compact](https://github.com/daviiid99/Lineage_Honami/blob/main/z1.png "Sony Xperia Z1")
 
 ## Hoja de especificaciones
 
