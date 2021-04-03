@@ -27,4 +27,4 @@
 |   Date                 | Download                  |
 | :---------------------- | :-------------------------------- |
 | 20210401                     |    <a href="https://github.com/daviiid99/Lineage_Honami/releases/tag/20210401">Lineage-18.1-20210401-UNOFFICIAL-honami
-</a>|
+</a>
