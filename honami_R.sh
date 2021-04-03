@@ -1,6 +1,6 @@
 ## Build
-  repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
-  repo sync --force-sync
+  repo init -u https://github.com/AICP/platform_manifest.git -b r11.1
+  repo sync
   source build/envsetup.sh
 
 
