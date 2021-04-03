@@ -5,7 +5,7 @@
 
 
  #Repos
- git clone -b lineage-17.1 https://github.com/NyQuilXT/android_device_sony_honami.git device/sony/honami
+ git clone -b aicp-11.1 https://github.com/daviiid99/android_device_sony_honami device/sony/honami
  git clone -b r11.1 https://github.com/AICP/device_sony_rhine-common.git device/sony/rhine-common
  git clone -b r11.1 https://github.com/AICP/device_sony_msm8974-common.git device/sony/msm8974-common
  git clone -b r11.1 https://github.com/daviiid99/kernel_sony_msm8974.git kernel/sony/msm8974
