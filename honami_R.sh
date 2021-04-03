@@ -28,7 +28,5 @@
  repopick -g https://gerrit.aicp-rom.com 105817 -P vendor/lineage
  
  ## Build
- source build/envsetup.sh
- lunch lineage_honami-userdebug
- make bacon
+brunch honami
 
