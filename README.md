@@ -26,5 +26,6 @@
 
 |   Date                 | Download                  |
 | :---------------------- | :-------------------------------- |
+| 20210406                    |    <a href="https://github.com/daviiid99/AOSP_Honami/releases/tag/20210406">Havoc-OS-v4.3-20210406-honami-Unofficial</a>
 | 20210404                    |    <a href="https://github.com/daviiid99/AOSP_Honami/releases/tag/20210404">aicp_honami_r-16.1-UNOFFICIAL-20210404</a>
 | 20210401                     |    <a href="https://github.com/daviiid99/Lineage_Honami/releases/tag/20210401">Lineage-18.1-20210401-UNOFFICIAL-honami</a>|
