@@ -1,5 +1,5 @@
 ## Build
-  repo init -u git://github.com/LineageOS/android.git -b lineage-18.1
+  repo init -u git://github.com/daviiid99/android -b lineage-18.1
   repo sync
   source build/envsetup.sh
 
