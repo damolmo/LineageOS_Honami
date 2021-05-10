@@ -1,0 +1,19 @@
+Date: Thu, 10 May 2021 
+Subject: [PATCH] RenderEngine: Rev down blur filter shader when device is legacy
+
+diff --git a/libs/renderengine/Android.bp b/libs/renderengine/Android.bp
+index eb6080f..7b92e77 100644
+--- a/libs/renderengine/Android.bp
++++ b/libs/renderengine/Android.bp
+@@ -84,6 +84,11 @@
+     lto: {
+         thin: true,
+     },
++    product_variables: {
++        product_shipping_api_level: {
++            cflags: ["-DPRODUCT_SHIPPING_API_LEVEL=%d"],
++        },
++    },
+ }
+ 
+ cc_library_static {
