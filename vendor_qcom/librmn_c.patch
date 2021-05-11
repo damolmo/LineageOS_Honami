@@ -11,4 +11,3 @@ index 4cf2d27..c1da816 100644
 + 		request.message_type =RMNET_NETLINK_NEW_VND_WITH_PREFIX;
 			str_len = strlcpy((char *)request.vnd.vnd_name,
 					  prefix, RMNET_MAX_STR_LEN);
-
