@@ -1,0 +1,11 @@
+Date: Thu, 11 May 2021 
+Subject: [PATCH] librmnetctl: RMNET_NETLINK_NEW_VND_WITH_NAME
+
+diff --git a/opensource/dataservices/rmnetctl/src/librmnetctl.c b/opensource/dataservices/rmnetctl/src/librmnetctl.c
+index 4cf2d27..c1da816 100644
+--- a/opensource/dataservices/rmnetctl/src/librmnetctl.c
++++ b/opensource/dataservices/rmnetctl/src/librmnetctl.c
+@@ -934,7 +934,67 @@
+- request.message_type =RMNET_NETLINK_NEW_VND_WITH_NAME;
++ request.message_type =RMNET_NETLINK_NEW_VND_WITH_PREFIX;
+      
