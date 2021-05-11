@@ -5,7 +5,8 @@ diff --git a/opensource/dataservices/rmnetctl/src/librmnetctl.c b/opensource/dat
 index 4cf2d27..c1da816 100644
 --- a/opensource/dataservices/rmnetctl/src/librmnetctl.c
 +++ b/opensource/dataservices/rmnetctl/src/librmnetctl.c
-@@ -934,7 +934,67 @@
+@@ -934,13 +934,13 @@
+if (prefix) {
 - request.message_type =RMNET_NETLINK_NEW_VND_WITH_NAME;
 + request.message_type =RMNET_NETLINK_NEW_VND_WITH_PREFIX;
       
