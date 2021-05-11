@@ -28,6 +28,7 @@ git config --global user.name "Your Name
 
 #Sync
 mkdir -p ~/android/lineage
+cd ~/android/lineage
 repo init -u git://github.com/LineageOS/android.git -b lineage-18.1
 repo sync
 source build/envsetup.sh
