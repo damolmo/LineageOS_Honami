@@ -13,6 +13,3 @@ index 4cf2d27..c1da816 100644
 					  prefix, RMNET_MAX_STR_LEN);
 			if (_rmnetctl_check_len(str_len, error_code)
 						!= RMNETCTL_SUCCESS)
-				
-
-
