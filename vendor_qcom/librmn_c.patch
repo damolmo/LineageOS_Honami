@@ -8,4 +8,7 @@ index 4cf2d27..c1da816 100644
 @@ -933,6 +933,7 @@
 	if (prefix) {
 -		request.message_type =RMNET_NETLINK_NEW_VND_WITH_NAME;
-+		request.message_type =RMNET_NETLINK_NEW_VND_WITH_PREFIX;			
++ 		request.message_type =RMNET_NETLINK_NEW_VND_WITH_PREFIX;
+			str_len = strlcpy((char *)request.vnd.vnd_name,
+					  prefix, RMNET_MAX_STR_LEN);
+
