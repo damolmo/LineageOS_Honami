@@ -55,6 +55,7 @@ source build/envsetup.sh
  patch -d build/soong -p1 <  RPatches/build_soong_android/variable_go.patch
  patch -d vendor/lineage -p1 <  RPatches/vendor_lineage/build_soong/android_bp.patch
  patch -d vendor/lineage -p1 <  RPatches/vendor_lineage/config/BoardConfigSoong_mk.patch
+ patch -d vendor/qcom/opensource/dataservices -p1 <  RPatches/rmnetctl_src/librmnetctl_c.patch
  
  #Build
 lunch lineage_honami-userdebug
