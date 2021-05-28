@@ -47,18 +47,10 @@ source build/envsetup.sh
  git clone -b patches https://github.com/daviiid99/LineageOS_Honami.git RPatches/
  
  #Patches
- repopick 310331
- patch -d system/core -p1 <  RPatches/system_core/android_bp.patch
- patch -d system/core -p1 <  RPatches/system_core/service_cpp.patch
- patch -d frameworks/native -p1 <  RPatches/frameworks_native/libs/renderengine/android_bp.patch
- patch -d frameworks/native -p1 <  RPatches/frameworks_native/libs/renderengine/gl/filters/blurfilter_cpp.patch
- patch -d build/make -p1 <  RPatches/build_make_core/soong_config_mk.patch
- patch -d build/soong -p1 <  RPatches/build_soong_android/variable_go.patch
- patch -d vendor/lineage -p1 <  RPatches/vendor_lineage/build_soong/android_bp.patch
- patch -d vendor/lineage -p1 <  RPatches/vendor_lineage/config/BoardConfigSoong_mk.patch
- patch -d vendor/qcom/opensource/dataservices -p1 <  RPatches/rmnetctl_src/librmnetctl_c.patch
+ patch -d packages/apps/Settings -p1 <  RPatches/packages_apps_Settings/display_nfc.patch #Fixes missing NFC icon in Settings
+ patch -d vendor/qcom/opensource/dataservices -p1 <  RPatches/rmnetctl_src/librmnetctl_c.patch #Fixes build process
  
- #Build
+#Build
 lunch lineage_honami-userdebug
 brunch honami
 
