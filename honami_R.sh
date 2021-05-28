@@ -40,13 +40,14 @@ source build/envsetup.sh
  git clone -b r11.1 https://github.com/daviiid99/kernel_sony_msm8974.git kernel/sony/msm8974
  git clone -b r11.1 https://github.com/AICP/proprietary_vendor_sony.git vendor/sony
  git clone -b r11.1-caf https://github.com/AICP/device_sony_common.git device/sony/common-caf
- git clone -b q10.0 https://github.com/AICP/hardware_sony_macaddrsetup.git hardware/sony/macaddrsetup
- git clone -b q10.0 https://github.com/AICP/hardware_sony_thermanager.git hardware/sony/thermanager
- git clone -b q10.0 https://github.com/AICP/hardware_sony_timekeep.git hardware/sony/timekeep
- git clone -b q10.0 https://github.com/AICP/external_sony_boringssl-compat.git external/sony/boringssl-compat 
+ git clone -b lineage-18.1 https://github.com/LineageOS/android_hardware_sony_macaddrsetupt.git hardware/sony/macaddrsetup
+ git clone -b lineage-18.1 https://github.com/LineageOS/android_hardware_sony_thermanager.git hardware/sony/thermanager
+ git clone -b lineage-18.1 https://github.com/LineageOS/android_hardware_sony_timekeep.git hardware/sony/timekeep
+ git clone -b lineage-18.1 https://github.com/LineageOS/android_external_sony_boringssl-compat.git external/sony/boringssl-compat 
  git clone -b patches https://github.com/daviiid99/LineageOS_Honami.git RPatches/
  
  #Patches
+ repopick 310331
  patch -d system/core -p1 <  RPatches/system_core/android_bp.patch
  patch -d system/core -p1 <  RPatches/system_core/service_cpp.patch
  patch -d frameworks/native -p1 <  RPatches/frameworks_native/libs/renderengine/android_bp.patch
