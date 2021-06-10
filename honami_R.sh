@@ -51,6 +51,5 @@ source build/envsetup.sh
  patch -d vendor/qcom/opensource/dataservices -p1 <  RPatches/rmnetctl_src/librmnetctl_c.patch #Fixes build process
  
 #Build
-lunch lineage_honami-userdebug
 brunch honami
 
