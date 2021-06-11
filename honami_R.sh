@@ -35,8 +35,8 @@ source build/envsetup.sh
 
  #Repos
  git clone -b lineage-18.1 https://github.com/daviiid99/android_device_sony_honami device/sony/honami
- git clone -b r11.1 https://github.com/daviiid99/device_sony_rhine-common device/sony/rhine-common
- git clone -b r11.1 https://github.com/daviiid99/device_sony_msm8974-common device/sony/msm8974-common
+ git clone -b lineage-18.1 https://github.com/daviiid99/device_sony_rhine-common device/sony/rhine-common
+ git clone -b lineage-18.1 https://github.com/daviiid99/device_sony_msm8974-common device/sony/msm8974-common
  git clone -b r11.1 https://github.com/daviiid99/kernel_sony_msm8974.git kernel/sony/msm8974
  git clone -b r11.1 https://github.com/daviiid99/proprietary_vendor_sony.git vendor/sony
  git clone -b r11.1-caf https://github.com/AICP/device_sony_common.git device/sony/common-caf
