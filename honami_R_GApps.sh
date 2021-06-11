@@ -25,12 +25,14 @@ ccache -M 50G
 #Git config
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name
+
 #Sync
 mkdir -p ~/android/lineage
 cd ~/android/lineage
 repo init -u git://github.com/LineageOS/android.git -b lineage-18.1
 repo sync
 source build/envsetup.sh
+
  #Repos
  git clone -b lineage-18.1 https://github.com/daviiid99/android_device_sony_honami device/sony/honami
  git clone -b lineage-18.1 https://github.com/daviiid99/device_sony_rhine-common device/sony/rhine-common
