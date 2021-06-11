@@ -58,23 +58,23 @@ source build/envsetup.sh
  rm product.zip
  cd product/priv-app
  
- mkdir Gcam&&cd Gcam
+ mkdir Gcam&&cd Gcam # Compatible 32-bit GCAM
  wget https://github.com/daviiid99/daviiid99/releases/download/honami/Gcam.apk
  cd ..
  
- mkdir Play&&cd Play
+ mkdir Play&&cd Play # Google Play Store, missing from base package
  wget https://github.com/daviiid99/daviiid99/releases/download/honami/Play.apk
  cd ..
  
- mkdir Google&&cd Google
+ mkdir Google&&cd Google # Google app, missing from base package
  wget https://github.com/daviiid99/daviiid99/releases/download/honami/Google.apk
  cd ..
  
- mkdir soundpicker&&cd soundpicker
+ mkdir soundpicker&&cd soundpicker # Google Sound Picker app, solves missing sounds
  wget https://github.com/daviiid99/daviiid99/releases/download/honami/soundpicker.apk
  cd ..
  
- mkdir Wallpaper&&cd Wallpaper
+ mkdir Wallpaper&&cd Wallpaper #Google Wallpaper app, solves missing wallpaper app with Pixel Launcher
  wget https://github.com/daviiid99/daviiid99/releases/download/honami/Wallpaper.apk
  cd ../../../../../../../../
  
