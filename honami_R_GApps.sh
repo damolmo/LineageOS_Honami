@@ -56,8 +56,7 @@ source build/envsetup.sh
  wget https://github.com/daviiid99/daviiid99/releases/download/honami/product.zip
  unzip product.zip  # GApps base package
  rm product.zip
- cd product
- cd priv-app
+ cd product/priv-app
  
  mkdir Gcam&&cd Gcam
  wget https://github.com/daviiid99/daviiid99/releases/download/honami/Gcam.apk
