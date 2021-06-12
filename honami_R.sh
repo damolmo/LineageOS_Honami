@@ -47,9 +47,9 @@ source build/envsetup.sh
  git clone -b patches https://github.com/daviiid99/LineageOS_Honami.git RPatches/
  
  #Patches
- patch -d packages/apps/Settings -p1 <  RPatches/packages_apps_Settings/display_nfc.patch #Fixes missing NFC icon in Settings
- patch -d vendor/qcom/opensource/dataservices -p1 <  RPatches/rmnetctl_src/librmnetctl_c.patch #Fixes build process
- patch -d frameworks/base -p1 < RPatches/core_res_res_values/Disable_Wallpaper_Zoom.patch #Fixes Android R Wallpaper Zoom
+ patch -d packages/apps/Settings -p1 <  RPatches/Display_NFC_Settings.patch #Fixes missing NFC icon in Settings
+ patch -d vendor/qcom/opensource/dataservices -p1 <  RPatches/RMNET_NETLINK_NEW_VND_WITH_PREFIX.patch #Fixes build process
+ patch -d frameworks/base -p1 < RPatches/Disable_Wallpaper_Zoom.patch #Fixes Android R Wallpaper Zoom
  
 #Build
 brunch honami
