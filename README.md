@@ -26,6 +26,7 @@
 
 |   Date                 | Download                  |
 | :----------------------| :-------------------------------- |
+|20210612                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210612">Lineage-18.1-20210612-UNOFFICIAL-honami</a>
 |20210611                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210611">Lineage-18.1-20210611-UNOFFICIAL-honami</a>
 |20210528                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210528">Lineage-18.1-20210528-UNOFFICIAL-honami</a>
 |20210511                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210511">Lineage-18.1-20210511-UNOFFICIAL-honami</a>
