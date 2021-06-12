@@ -1,0 +1,18 @@
+Date: Thu, 28 May 2021 
+Subject: [PATCH] Settings: Display NFC settings correctly
+
+diff --git a/src/com/android/settings/connecteddevice/NfcAndPaymentFragmentController.java b/src/com/android/settings/connecteddevice/NfcAndPaymentFragmentController.java
+index 65fafee..7f140f9 100644
+--- a/src/com/android/settings/connecteddevice/NfcAndPaymentFragmentController.java
++++ b/src/com/android/settings/connecteddevice/NfcAndPaymentFragmentController.java
+@@ -77,9 +77,7 @@
+ 
+     @Override
+     public int getAvailabilityStatus() {
+-        if (!mPackageManager.hasSystemFeature(PackageManager.FEATURE_NFC)
+-                || !mPackageManager.hasSystemFeature(
+-                PackageManager.FEATURE_NFC_HOST_CARD_EMULATION)) {
++        if (!mPackageManager.hasSystemFeature(PackageManager.FEATURE_NFC)) {
+             return UNSUPPORTED_ON_DEVICE;
+         }
+         return AVAILABLE;
