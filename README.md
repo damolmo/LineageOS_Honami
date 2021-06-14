@@ -12,6 +12,7 @@ repo init -u git://github.com/LineageOS/android.git -b lineage-18.1
 
 Download latest manifest:
 ```
+mkdir -p .repo/local_manifests
 curl https://raw.githubusercontent.com/daviiid99/LineageOS_Honami/manifest/honami.xml > .repo/local_manifests/honami.xml
 
 ```
