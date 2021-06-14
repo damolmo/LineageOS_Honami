@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="daviiid99/android_device_sony_honami" path="device/sony/honami" revision="lineage-18.1" />
+  <project name="daviiid99/device_sony_rhine-common" path="device/sony/rhine-common" revision="lineage-18.1" />
+  <project name="daviiid99/device_sony_msm8974-common" path="device/sony/msm8974-common" revision="lineage-18.1" />
+  <project name="daviiid99/kernel_sony_msm8974" path="kernel/sony/msm8974" revision="r11.1" />
+  <project name="daviiid99/proprietary_vendor_sony" path="vendor/sony" revision="r11.1" />
+  <project name="AICP/device_sony_common" path="device/sony/common-caf" revision="r11.1-caf" />
+  <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" revision="lineage-18.1" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="lineage-18.1" />
+  <project name="daviiid99/LineageOS_Honami" path="RPatches/" revision="patches" />
+</manifest>
