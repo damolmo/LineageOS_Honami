@@ -1,38 +1,45 @@
 # Sony Xperia Z1 (Honami)
 <br/>
 
-## Device render
+## Build Instructions with manifest
 
-![Sony Xperia Z1](https://github.com/daviiid99/Lineage_Honami/blob/main/z1.png "Sony Xperia Z1")
+Initialize LineageOS repo:
+```
+mkdir -p ~/android/lineage
+cd ~/android/lineage
+repo init -u git://github.com/LineageOS/android.git -b lineage-18.1
+```
 
-## Specs
+Download latest manifest:
+```
+curl https://raw.githubusercontent.com/daviiid99/LineageOS_Honami/manifest/honami.xml > .repo/local_manifests/honami.xml
 
-| Type                    | Details                    |
-| :---------------------- | :-------------------------------- |
-| CPU                     | Quad-core 2.2 GHz Krait 400       |
-| Chipset                 | Qualcomm MSM8974 Snapdragon 800   |
-| GPU                     | Adreno 330                        |
-| RAM                     | 2 GB                              |
-| ROM Storage             | 16 GB                             |
-| MicroSD                 | dedicated SLot                    |
-| Battery                 | Li-Ion 3000 mAh (non-removable )  |
-| Size                    | 127 x 64.9 x 9.5 mm               |
-| Screen                  | 5.0 inches                        |
-| Front camera            | 20.7 MP, LED flash                |
-| Selfie camera           | 2 MP                              |
-| Available               | 2013, September                  |
+```
+Sync repo:
+```
+repo sync
+source build/envsetup.sh
+```
 
-## Updates History
+Apply patches:
+```
+patch -d packages/apps/Settings -p1 <  RPatches/Display_NFC_Settings.patch #Fixes missing NFC icon in Settings
+patch -d vendor/qcom/opensource/dataservices -p1 <  RPatches/RMNET_NETLINK_NEW_VND_WITH_PREFIX.patch #Fixes build process
+patch -d frameworks/base -p1 < RPatches/Disable_Wallpaper_Zoom.patch #Fixes Android R Wallpaper Zoom
+ 
+```
 
-|   Date                 | Download                  |
-| :----------------------| :-------------------------------- |
-|20210613                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210613">Lineage-18.1-20210613-UNOFFICIAL-honami</a>
-|20210612                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210612">Lineage-18.1-20210612-UNOFFICIAL-honami</a>
-|20210611                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210611">Lineage-18.1-20210611-UNOFFICIAL-honami</a>
-|20210528                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210528">Lineage-18.1-20210528-UNOFFICIAL-honami</a>
-|20210511                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210511">Lineage-18.1-20210511-UNOFFICIAL-honami</a>
-|20210414                |    <a href="https://github.com/daviiid99/AOSP_Honami/releases/tag/20210414">Lineage-18.1-20210414-UNOFFICIAL-honami</a>
-|20210410                |    <a href="https://github.com/daviiid99/AOSP_Honami/releases/tag/20210410">Lineage-18.1-20210410-UNOFFICIAL-honami</a>
-| 20210406               |    <a href="https://github.com/daviiid99/AOSP_Honami/releases/tag/20210406">Havoc-OS-v4.3-20210406-honami-Unofficial</a>
-| 20210404               |    <a href="https://github.com/daviiid99/AOSP_Honami/releases/tag/20210404">aicp_honami_r-16.1-UNOFFICIAL-20210404</a>
-| 20210401               |    <a href="https://github.com/daviiid99/Lineage_Honami/releases/tag/20210401">Lineage-18.1-20210401-UNOFFICIAL-honami</a>|
+(Optional) Include Prebuilt GApps
+```
+ mkdir -p out/target/product/honami/system/product
+ cd out/target/product/honami/system/
+ wget https://github.com/daviiid99/daviiid99/releases/download/honami/product.zip
+ unzip product.zip  # GApps base package
+ rm product.zip
+ cd ../../../../../
+ ```
+
+Build:
+```
+brunch honami
+```
