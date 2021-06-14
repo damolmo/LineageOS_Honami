@@ -42,37 +42,37 @@ patch -d frameworks/base -p1 < RPatches/Disable_Wallpaper_Zoom.patch #Fixes Andr
 (Optional) Replace default wallpaper with LineageOS brand logo wallpaper
  ```
 cd overlay/common/frameworks/base/core/res/res/drawable-hdpi
-rm -rf default_wallpaper.png
+rm default_wallpaper.png
 wget https://github.com/daviiid99/daviiid99/releases/download/honami/default_wallpaper.png
 cd ../
 
 cd drawable-nodpi
-rm -rf default_wallpaper.png
+rm default_wallpaper.png
 wget https://github.com/daviiid99/daviiid99/releases/download/honami/default_wallpaper.png
 cd ../
 
 cd drawable-sw600dp-nodpi
-rm -rf default_wallpaper.png
+rm default_wallpaper.png
 wget https://github.com/daviiid99/daviiid99/releases/download/honami/default_wallpaper.png
 cd ../
 
 cd drawable-sw720dp-nodpi
-rm -rf default_wallpaper.png
+rm default_wallpaper.png
 wget https://github.com/daviiid99/daviiid99/releases/download/honami/default_wallpaper.png
 cd ../
 
 cd drawable-xhdpi
-rm -rf default_wallpaper.png
+rm default_wallpaper.png
 wget https://github.com/daviiid99/daviiid99/releases/download/honami/default_wallpaper.png
 cd ../
 
 cd drawable-xxhdpi
-rm -rf default_wallpaper.png
+rm default_wallpaper.png
 wget https://github.com/daviiid99/daviiid99/releases/download/honami/default_wallpaper.png
 cd ../
 
 cd drawable-xxxhdpi
-rm -rf default_wallpaper.png
+rm default_wallpaper.png
 wget https://github.com/daviiid99/daviiid99/releases/download/honami/default_wallpaper.png
 cd ../../../../../../../../
 ```
