@@ -1,6 +1,12 @@
 # Sony Xperia Z1 (Honami)
 <br/>
 
+## Are you looking to build this ROM
+If you're looking for build instructions and you already have a working environment with Linux, follow: <a href="https://github.com/daviiid99/LineageOS_Honami/tree/manifest">Build with manifest</a>
+
+If you dont know how to make a Linux environment to build LineageOS, follow <a href="https://raw.githubusercontent.com/daviiid99/LineageOS_Honami/main/honami_R_GApps.sh">Setup environment and build</a>
+<br/><br/>
+
 ## Device render
 
 ![Sony Xperia Z1](https://github.com/daviiid99/Lineage_Honami/blob/main/z1.png "Sony Xperia Z1")
