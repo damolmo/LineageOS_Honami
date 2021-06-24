@@ -79,5 +79,6 @@ cd ../../../../../../../../../../
 
 Build:
 ```
+rm frameworks/base/core/res/res/values/config.xml.orig
 brunch honami
 ```
