@@ -85,6 +85,7 @@ brunch honami
 <br/>
 NOTE: If the build process fails with the following error: 
 invalid file path 'frameworks/base/core/res/res/values/config.xml.orig'
+<br/>Do:
 
 ```
 rm ~/android/lineage/frameworks/base/core/res/res/values/config.xml.orig
