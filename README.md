@@ -83,6 +83,7 @@ cd out/target/product/honami/system/product/priv-app
 mkdir Updater&& cd Updater
 wget https://github.com/daviiid99/daviiid99/releases/download/honami/Updater.apk
 cd ../../../../../../../../
+```
 
 Build:
 ```
