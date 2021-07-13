@@ -32,6 +32,7 @@ If you dont know how to make a Linux environment to build LineageOS, follow <a h
 
 |   Date                 | Download                  |
 | :----------------------| :-------------------------------- |
+|20210712                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210712">Lineage-18.1-20210712-UNOFFICIAL-honami</a>
 |20210707                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210707">Lineage-18.1-20210707-UNOFFICIAL-honami</a>
 |20210702                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210702">Lineage-18.1-20210702-UNOFFICIAL-honami</a>
 |20210628                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210628">Lineage-18.1-20210628-UNOFFICIAL-honami</a>
