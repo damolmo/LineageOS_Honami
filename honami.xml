@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="daviiid99/android_device_sony_honami" path="device/sony/honami" revision="CherishOS" />
-  <project name="daviiid99/device_sony_rhine-common" path="device/sony/rhine-common" revision="CherishOS" />
-  <project name="daviiid99/device_sony_msm8974-common" path="device/sony/msm8974-common" revision="CherishOS" />
+  <project name="daviiid99/android_device_sony_honami" path="device/sony/honami" revision="cherish" />
+  <project name="daviiid99/device_sony_rhine-common" path="device/sony/rhine-common" revision="cherish" />
+  <project name="daviiid99/device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cherish" />
   <project name="daviiid99/kernel_sony_msm8974" path="kernel/sony/msm8974" revision="r11.1" />
   <project name="daviiid99/proprietary_vendor_sony" path="vendor/sony" revision="r11.1" />
   <project name="AICP/device_sony_common" path="device/sony/common-caf" revision="r11.1-caf" />
