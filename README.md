@@ -13,7 +13,7 @@ repo init -u https://github.com/CherishOS/android_manifest.git -b eleven
 Download latest manifest:
 ```
 mkdir -p .repo/local_manifests
-curl https://raw.githubusercontent.com/daviiid99/LineageOS_Honami/CherishOS_manifest/honami.xml > .repo/local_manifests/honami.xml
+curl https://raw.githubusercontent.com/daviiid99/LineageOS_Honami/cherish/honami.xml > .repo/local_manifests/honami.xml
 
 ```
 Sync repo:
