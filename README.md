@@ -71,6 +71,7 @@ cd ../../../../../../../../../../
 
 (Optional) LineageOS Updater app shorcut in drawer
 ```
+mkdir -p out/target/product/honami/system/product/priv-app
 cd out/target/product/honami/system/product/priv-app
 mkdir Up&& cd Up
 wget https://github.com/daviiid99/daviiid99/releases/download/honami/Up.apk
