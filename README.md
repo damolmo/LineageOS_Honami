@@ -77,6 +77,13 @@ wget https://github.com/daviiid99/daviiid99/releases/download/honami/Up.apk
 cd ../../../../../../../../
 ```
 
+Download OpenGApps source
+```
+sudo apt install git-lfs
+git lfs install
+repo forall -c git lfs pull
+```
+
 Build:
 ```
 brunch honami
