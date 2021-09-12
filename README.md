@@ -14,7 +14,7 @@ Download latest manifest:
 ```
 mkdir -p .repo/local_manifests
 curl https://raw.githubusercontent.com/daviiid99/LineageOS_Honami/manifest/honami.xml > .repo/local_manifests/honami.xml
-
+curl https://raw.githubusercontent.com/daviiid99/LineageOS_Honami/manifest/gapps.xml > .repo/local_manifests/gapps.xml
 ```
 Sync repo:
 ```
