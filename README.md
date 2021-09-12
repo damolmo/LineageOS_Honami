@@ -31,15 +31,6 @@ patch -d vendor/lineage -p1 < RPatches/Whitelist_priv-app_Permissions.patch #Fix
  
 ```
 
-(Optional) Include Prebuilt GApps
-```
- mkdir -p out/target/product/honami/system/product
- cd out/target/product/honami/system/
- wget https://github.com/daviiid99/daviiid99/releases/download/honami/product.zip
- unzip product.zip  # GApps base package
- rm product.zip
- cd ../../../../../
- ```
 (Optional) Replace default wallpaper with LineageOS brand logo wallpaper
  ```
 cd vendor/lineage/overlay/common/frameworks/base/core/res/res/drawable-hdpi
