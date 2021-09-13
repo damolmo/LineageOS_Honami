@@ -4,7 +4,7 @@
 ## Are you looking to build this ROM?
 If you're looking for build instructions and you already have a working environment with Linux, follow <a href="https://github.com/daviiid99/LineageOS_Honami/tree/manifest">Build with manifest</a>
 
-If you dont know how to make a Linux environment to build LineageOS, follow <a href="https://github.com/daviiid99/LineageOS_Honami/blob/main/honami_R_GApps.sh">Setup environment and build</a>
+If you dont know how to make a Linux environment to build LineageOS, follow <a href="https://github.com/daviiid99/LineageOS_Honami/blob/main/honami_R.sh">Setup environment</a>
 <br/><br/>
 
 ## Device render
@@ -32,6 +32,7 @@ If you dont know how to make a Linux environment to build LineageOS, follow <a h
 
 |   Date                 | Download                  |
 | :----------------------| :-------------------------------- |
+|20210913                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210913">Lineage-18.1-20210913-UNOFFICIAL-honami</a>
 |20210806                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210806">Lineage-18.1-20210806-UNOFFICIAL-honami</a>
 |20210712                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210712">Lineage-18.1-20210712-UNOFFICIAL-honami</a>
 |20210707                |    <a href="https://github.com/daviiid99/LineageOS_Honami/releases/tag/20210707">Lineage-18.1-20210707-UNOFFICIAL-honami</a>
